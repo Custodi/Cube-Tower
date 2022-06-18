@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a67b5d054ac8294c8b2eb2c007e2ca5, type: 3}
+  m_Name: Meta Wave List
+  m_EditorClassIdentifier: Assembly-CSharp::MetaWaveList
+  _metaWaveCollection:
+  - offerDuration: 10
+    nextOfferTime: 10
+    offerReward: 20
+  - offerDuration: 15
+    nextOfferTime: 15
+    offerReward: 25
+  - offerDuration: 15
+    nextOfferTime: 20
+    offerReward: 15
+  - offerDuration: 12
+    nextOfferTime: 15
+    offerReward: 16
+  - offerDuration: 12
+    nextOfferTime: 15
+    offerReward: 18
+  - offerDuration: 10
+    nextOfferTime: 15
+    offerReward: 20

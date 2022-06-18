@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4b76844074103478c9cc76e32b3fdf, type: 3}
+  m_Name: Enemy List
+  m_EditorClassIdentifier: 
+  _enemyList:
+  - name: Bee
+    health: 15
+    speed: 3.5
+    enemyPrefab: {fileID: 4267885473066077876, guid: 46fa01b3872e4ed4a980840a29c2730a,
+      type: 3}
+    reward: 3
+    damage: 1
+  - name: Bat
+    health: 30
+    speed: 2.5
+    enemyPrefab: {fileID: 693654961631038545, guid: 4bfe2d0a4f214e64ab10589046f557db,
+      type: 3}
+    reward: 6
+    damage: 1
+  - name: Bat Lord
+    health: 250
+    speed: 2.5
+    enemyPrefab: {fileID: 6663145379726905964, guid: ba5d245edd39dec4fabe68b01a25a86f,
+      type: 3}
+    reward: 25
+    damage: 3
+  - name: Spider King
+    health: 70
+    speed: 2
+    enemyPrefab: {fileID: 2096380662116040546, guid: 2d29ad270dcf4b04581071223dea2f09,
+      type: 3}
+    reward: 5
+    damage: 3
+  - name: Ghost
+    health: 60
+    speed: 2.5
+    enemyPrefab: {fileID: 1341672110129019372, guid: 1c99f37c9881d094ab5769ec59156bd2,
+      type: 3}
+    reward: 10
+    damage: 1
+  - name: Phantom
+    health: 150
+    speed: 1.5
+    enemyPrefab: {fileID: 3385243207367477923, guid: bcffbdc20f97ce74b90dacee6e88f318,
+      type: 3}
+    reward: 15
+    damage: 3
+  - name: Golem
+    health: 500
+    speed: 1
+    enemyPrefab: {fileID: 6469791891783083880, guid: 422af35d59ed66640a94d86458f2dbae,
+      type: 3}
+    reward: 50
+    damage: 5

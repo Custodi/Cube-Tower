@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69b7e8eafa837e4183f746169c759c7, type: 3}
+  m_Name: Wave List 1
+  m_EditorClassIdentifier: 
+  _wavesList:
+  - subWaves:
+    - id: 0
+      count: 3
+  - subWaves:
+    - id: 0
+      count: 2
+    - id: 1
+      count: 2
+  - subWaves:
+    - id: 1
+      count: 2
+    - id: 0
+      count: 2
+  - subWaves:
+    - id: 0
+      count: 3
+    - id: 4
+      count: 1
+    - id: 0
+      count: 3
+  - subWaves:
+    - id: 1
+      count: 4
+    - id: 4
+      count: 2
+    - id: 3
+      count: 2
+  - subWaves:
+    - id: 0
+      count: 5
+    - id: 1
+      count: 2
+    - id: 2
+      count: 1
+  - subWaves:
+    - id: 3
+      count: 1
+    - id: 4
+      count: 2
+    - id: 5
+      count: 1
+  - subWaves:
+    - id: 4
+      count: 3
+    - id: 1
+      count: 8
+    - id: 2
+      count: 1
+    - id: 5
+      count: 2
+    - id: 4
+      count: 2
+  - subWaves:
+    - id: 6
+      count: 1
+    - id: 4
+      count: 4
+    - id: 1
+      count: 3
+    - id: 5
+      count: 2
+  - subWaves:
+    - id: 4
+      count: 3
+    - id: 3
+      count: 1
+    - id: 6
+      count: 1
+    - id: 5
+      count: 2
+    - id: 2
+      count: 1
