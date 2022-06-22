@@ -208,15 +208,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _upgradeList:
   - price: 30
-    fireRate: 0.33
+    fireRate: 0.4125
     radius: 3
     levelTowerPrefab: {fileID: 5777686139562194435}
   - price: 45
-    fireRate: 0.5
+    fireRate: 0.625
     radius: 3.5
     levelTowerPrefab: {fileID: 5544305334096261316}
   - price: 60
-    fireRate: 1
+    fireRate: 1.25
     radius: 4.5
     levelTowerPrefab: {fileID: 582037825734680167}
   _visualRadius: {fileID: 826264435290933923}
